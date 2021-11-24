@@ -7,6 +7,12 @@ class PygGraphPropPredDataset(PygGraphPropPredDataset_):
         self.data = None
         self.slices = None
 
+    def download(self):
+        return super().download()
+
+    def process(self):
+        return super().process()
+
     def load_data(self):
         self.data, self.slices = torch.load(self.processed_paths[0])
 
