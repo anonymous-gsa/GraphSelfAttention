@@ -8,6 +8,11 @@ conda env create --file environment.yaml
 conda activate chemprop
 ```
 
+### Prepare pretrained weight
+Download pretrained weights from ```https://drive.google.com/drive/folders/1Oc3Ox0HAoJ5Hrihfp5-jFvStPIfFQAf9?usp=sharing```
+and create folder ```pretrained_weight```.
+
+
 ## Reproduce results
 
 Please check ```{dataset-name}.sh``` for detailed commands to reproduce the results.
